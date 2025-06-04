@@ -33,6 +33,7 @@
     @media (max-width: 768px) {
       .main-nav { position: static; margin: 0; }
     }
+    .feature-icon { width: 32px; height: 32px;}
   </style>
 </head>
 <body>
@@ -86,6 +87,34 @@
   </section>
 
   <main class="flex flex-col items-center justify-center">
+
+    <!-- مميزات احترافية -->
+    <section class="py-8 bg-white w-full flex justify-center">
+      <div class="container mx-auto px-4 text-center">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 justify-center">
+          <div class="flex flex-col items-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" class="feature-icon mb-2" alt="تتبع ذكي">
+            <span class="font-bold text-green-800">تتبع لحظي</span>
+            <span class="text-gray-600 text-sm">تتبع مباشر لكل شحنتك من الباب للباب.</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/190/190406.png" class="feature-icon mb-2" alt="دعم فني">
+            <span class="font-bold text-green-800">دعم فني 24/7</span>
+            <span class="text-gray-600 text-sm">فريقنا متواجد دائمًا لخدمتك والإجابة على استفساراتك.</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/190/190422.png" class="feature-icon mb-2" alt="أسعار تنافسية">
+            <span class="font-bold text-green-800">أسعار تنافسية</span>
+            <span class="text-gray-600 text-sm">أفضل أسعار الشحن في قطر والخليج مع جودة عالية.</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png" class="feature-icon mb-2" alt="حلول متكاملة">
+            <span class="font-bold text-green-800">حلول متكاملة</span>
+            <span class="text-gray-600 text-sm">خدمات شحن وتخزين وتخليص جمركي وحلول للشركات والمتاجر.</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- من نحن -->
     <section id="about" class="py-10 bg-white w-full flex justify-center">
